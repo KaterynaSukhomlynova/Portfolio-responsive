@@ -1,15 +1,22 @@
+html {
+  background: #e8fbfc;
+  color: #2f323a;
+}
+
+h1 {
+  font-family: "Cinzel Decorative", cursive;
+}
+
 .heading {
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(0, 152, 155, 1) 0.1%,
-    rgba(0, 94, 120, 1) 94.2%
-  );
-  text-align: center;
+  background: #539987;
   margin-top: 100px;
   margin-bottom: 40px;
 }
 
 .profile-pic {
-  border-radius: 50%;
   margin: 40px;
+}
+
+.icons-contacts {
+  text-align: center;
 }
