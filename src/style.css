@@ -1,14 +1,24 @@
+:root {
+  --main-bg-color: #569f8d;
+  --heading-font-family: "Cinzel Decorative", cursive;
+  --accent-font-color: #d6a99a;
+}
+
 html {
-  background-color: #569f8d;
+  background-color: var(--main-bg-color);
 }
 
 body {
-  background-color: #569f8d !important;
+  background-color: var(--main-bg-color) !important;
+}
+
+h1 {
+  font-weight: 600 !important;
 }
 
 a {
   text-decoration: none !important;
-  color: #d6a99a !important;
+  color: var(--accent-font-color) !important;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
@@ -25,14 +35,14 @@ a:hover {
 }
 
 .nav-link {
-  color: #d6a99a !important;
-  font-family: "Cinzel Decorative", cursive;
+  color: var(--accent-font-color) !important;
+  font-family: var(--heading-font-family);
 }
 
 .heading {
   margin-top: 100px;
-  background-color: #569f8d;
-  font-family: "Cinzel Decorative", cursive;
+  background-color: var(--main-bg-color);
+  font-family: var(--heading-font-family);
 }
 
 .profile-pic {
@@ -42,13 +52,27 @@ a:hover {
 .portfolio-link {
   font-size: 26px;
   font-weight: 600;
-  font-family: "Cinzel Decorative", cursive;
+  font-family: var(--heading-font-family);
 }
 
 .carousel {
-  background-color: #569f8d;
+  background-color: var(--main-bg-color);
 }
 
 .icons-contacts {
-  background-color: #569f8d;
+  background-color: var(--main-bg-color);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 26px !important;
+    text-align: left;
+  }
+  h2 {
+    font-size: 22px;
+    text-align: left;
+  }
+  .portfolio-link {
+    font-size: 22px;
+  }
 }
