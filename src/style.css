@@ -1,0 +1,54 @@
+html {
+  background-color: #569f8d;
+}
+
+body {
+  background-color: #569f8d !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #d6a99a !important;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+a:hover {
+  color: #e2c2b8;
+  text-shadow: 0px 0px 30px #e2c2b8;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.nav-link {
+  color: #d6a99a !important;
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.heading {
+  margin-top: 100px;
+  background-color: #569f8d;
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.profile-pic {
+  border-radius: 40% 60% 64% 36% / 69% 15% 85% 31%;
+}
+
+.portfolio-link {
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.carousel {
+  background-color: #569f8d;
+}
+
+.icons-contacts {
+  background-color: #569f8d;
+}
