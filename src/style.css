@@ -26,13 +26,18 @@ a {
   transition: all 0.2s ease-in;
 }
 
-a:hover {
+a:hover,
+.button:hover {
   color: #e2c2b8;
   text-shadow: 0px 0px 30px #e2c2b8;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 30px #e2c2b8;
 }
 
 .nav-link {
@@ -84,4 +89,22 @@ a:hover {
 
 .card-project {
   margin: 0px 35px;
+}
+
+.contact-heading {
+  margin-top: 135px;
+}
+
+.contact-list {
+  font-size: 26px;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.button {
+  padding: 10px 20px;
+  font-family: var(--heading-font-family);
+  text-decoration: none;
+  border-radius: 3em;
+  border: 5px double #d6a99a;
 }
