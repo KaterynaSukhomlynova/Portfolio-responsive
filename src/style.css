@@ -14,6 +14,7 @@ body {
 
 h1 {
   font-weight: 600 !important;
+  font-family: var(--heading-font-family);
 }
 
 a {
@@ -75,4 +76,12 @@ a:hover {
   .portfolio-link {
     font-size: 22px;
   }
+}
+
+.projects {
+  margin-top: 135px;
+}
+
+.card-project {
+  margin: 0px 35px;
 }
