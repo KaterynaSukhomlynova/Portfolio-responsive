@@ -45,6 +45,10 @@ a:hover,
   font-family: var(--heading-font-family);
 }
 
+nav a.active {
+  font-weight: bold;
+}
+
 .heading {
   margin-top: 100px;
   background-color: var(--main-bg-color);
