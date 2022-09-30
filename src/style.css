@@ -17,6 +17,13 @@ h1 {
   font-family: var(--heading-font-family);
 }
 
+h5 {
+  font-size: 22px;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  color: var(--main-bg-color);
+}
+
 a {
   text-decoration: none !important;
   color: var(--accent-font-color) !important;
