@@ -1,6 +1,7 @@
 :root {
-  --main-bg-color: #569f8d;
+  --main-bg-color: #dad7d3;
   --heading-font-family: "Cinzel Decorative", cursive;
+  --main-font-color: #202125;
   --accent-font-color: #d6a99a;
 }
 
@@ -15,13 +16,14 @@ body {
 h1 {
   font-weight: 600 !important;
   font-family: var(--heading-font-family);
+  color: var(--main-font-color);
 }
 
-h5 {
-  font-size: 22px;
+h4 {
+  font-size: 26px;
   font-family: var(--heading-font-family);
-  font-weight: 700;
-  color: var(--main-bg-color);
+  font-weight: bold;
+  color: #917d6b;
 }
 
 a {
@@ -35,8 +37,8 @@ a {
 
 a:hover,
 .button:hover {
-  color: #e2c2b8;
-  text-shadow: 0px 0px 30px #e2c2b8;
+  color: var(--accent-font-color);
+  text-shadow: 0px 0px 30px #d6a99a;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
@@ -44,7 +46,7 @@ a:hover,
 }
 
 .button:hover {
-  box-shadow: 0px 0px 30px #e2c2b8;
+  box-shadow: 0px 0px 30px #d59090;
 }
 
 .nav-link {
@@ -60,6 +62,7 @@ nav a.active {
   margin-top: 100px;
   background-color: var(--main-bg-color);
   font-family: var(--heading-font-family);
+  color: var(--main-font-color);
 }
 
 .profile-pic {
@@ -67,7 +70,7 @@ nav a.active {
 }
 
 .portfolio-link {
-  font-size: 26px;
+  font-size: 23px;
   font-weight: 600;
   font-family: var(--heading-font-family);
 }
@@ -89,8 +92,11 @@ nav a.active {
     font-size: 22px;
     text-align: left;
   }
-  .portfolio-link {
+  h4 {
     font-size: 22px;
+  }
+  .portfolio-link {
+    font-size: 20px;
   }
 }
 
@@ -102,6 +108,10 @@ nav a.active {
   margin: 0px 35px;
 }
 
+.card-text {
+  color: var(--main-bg-color);
+}
+
 .contact-heading {
   margin-top: 135px;
 }
@@ -110,6 +120,7 @@ nav a.active {
   font-size: 26px;
   line-height: 1.5;
   font-style: italic;
+  color: var(--main-font-color);
 }
 
 .button {
